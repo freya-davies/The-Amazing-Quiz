@@ -14,8 +14,10 @@ server.use(express.static('public'))
 server.use(express.urlencoded({extended: false}))
 
 server.get('/', (req, res) => {
+
     // res.send("Working")
     res.redirect('/quiz')
+
 })
 
 server.use('/quiz', routes)
