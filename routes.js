@@ -3,15 +3,20 @@ const router = express.Router()
 const data = require('./data.json')
 const fs = require('fs')
 
+function getQuiz(data, id) {
+    return data.questions.find(questions => questions.id == id)
+}
+
 router.get('/', (req, res) => {
     const template = 'index'
     const viewData = data.questions
     res.render(template, viewData)
 })
 
-router.get('/questions', (req, res) => {
+router.get('/questions/:id', (req, res) => {
+    let id = req.params.id
+    let viewData = getQuiz(data, id-1)
     const template = 'question'
-    const viewData = data.questions[0]
     res.render(template, viewData)
 })
 
