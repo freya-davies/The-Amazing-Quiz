@@ -1,3 +1,11 @@
+.title {
+  text-align: center;
+  color:rgb(60, 82, 79); 
+  font-size: 45px;
+  letter-spacing: 1em;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
 .button {
   font-size: 1em;
   padding: 10px;
@@ -8,10 +16,18 @@
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  font-family: 'Roboto Mono', monospace;
 }
+
 .button:hover {
   background: rgb(5, 87, 76);
   color: black;
+  border: 2px solid rgb(11, 196, 171);
+
 }
 
 .overlay {
