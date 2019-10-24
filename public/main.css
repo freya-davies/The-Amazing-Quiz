@@ -2,6 +2,24 @@ body {
   background-image: url("/images/background-img.jpg");
 }
 
+#welcome{
+  background-color: rgb(231, 175, 20);
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+  max-width: 60%;
+  padding: 20px;
+  letter-spacing: .15em;
+  text-align: center;
+  border-radius: 20px/50px;
+  border: 3px solid black;
+  color: white;
+}
+
+#startQuiz{
+  max-width: 40%;
+  margin: auto;
+}
+
 .nav {
   color:black; 
   font-size: 25px;
