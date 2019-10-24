@@ -88,13 +88,13 @@ body {
 
 .popup {
   margin: 20% auto;
-  padding: 20px;
-  color: balck;
+  padding: 40px;
+  color: black;
   background-color: rgb(144, 179, 159);
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
+  /* transition: all 5s ease-in-out; */
   font-family: 'Roboto Mono', monospace;
   text-align: center;
 }

@@ -3,16 +3,15 @@
 </div> --}}
 <div class="questions">
   <img class="img-code" src="{{image}}" alt="{{name}}">
-  <a class="button" href="#popupWin">{{answerOne}}</a>
-  <a class="button" href="#popupLose">{{answerTwo}}</a>
-  <a class="button" href="#popupLose">{{answerThree}}</a>
-  <a class="button" href="#popupLose">{{answerFour}}</a>
+  <a class="button" href="#popup{{answerOne.x}}">{{answerOne.text}}</a>
+  <a class="button" href="#popup{{answerTwo.x}}">{{answerTwo.text}}</a>
+  <a class="button" href="#popup{{answerThree.x}}">{{answerThree.text}}</a>
+  <a class="button" href="#popup{{answerFour.x}}">{{answerFour.text}}</a>
 </div>
 {{!-- winner --}}
 <div id="popupWin" class="overlay">
   <div class="popup">
     <h2>Hooray!</h2>
-    <a class="close" href="#">&times;</a>
     <div class="content">
       You are a winner!
     </div>
@@ -25,7 +24,7 @@
 <div id="popupLose" class="overlay">
   <div class="popup">
     <h2>Next time for sure!</h2>
-    <a class="close" href="#">&times;</a>
+    {{!-- <a class="close" href="#">&times;</a> --}}
     <div class="content">
       Oh, not quite the right one. Don't worry, there are plenty more oportunities to learn during bootcamp.
     </div>
@@ -34,3 +33,6 @@
     </div>
   </div>
 </div>
+
+{{!-- if {{win}} exists then return popup{{win}}
+      else return popup{{lose}} --}}
