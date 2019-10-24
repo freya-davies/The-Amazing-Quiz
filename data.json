@@ -14,29 +14,32 @@
     {
       "name" : "map",
       "id": 1, 
+      "nextId": 3,
       "answerOne": "Returns a new array of the results of calling the given function on each element",
       "answerTwo": "Returns a string of each element",
       "answerThree": "Opens Google Maps and asks you where you would like to go",
       "answerFour": "Returns a new array with each element incremented by the given number", 
-      "imgage": "/images/greyhound.jpg"
+      "image": "/images/greyhound.jpg"
     },
     {
       "name" : "splice",
       "id": 2,
+      "nextId": 4,
       "answerOne": "Changes contents of a string by splitting it at the given marker",
       "answerTwo": "Changes the contents of an array by removing, replacing or adding elements",
       "answerThree": "Returns selected elements in an array as a new array object",
       "answerFour": "Returns selected elements in an array but sliced into as many pieces as specified",
-      "imgage": "/images/greyhound.jpg"
+      "image": "/images/greyhound.jpg"
     },
     {
       "name" : "trim",
       "id": 3,
+      "nextId": 5,
       "answerOne": "Trim is a string method that gives you a free haircut",
       "answerTwo": "Trim is a string method that removes white space from the start and the end of a given string",
       "answerThree": "Trim takes a string and an index and returns the end of a string from the given index",
       "answerFour": "Trim takes a string and an index and retuns the string from the start to the given index",
-      "imgage": "/images/greyhound.jpg"
+      "image": "/images/greyhound.jpg"
     }
   ]
 }
