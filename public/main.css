@@ -20,7 +20,7 @@ body {
   margin: auto;
 }
 
-.nav {
+.nav, .alignRight {
   color:black; 
   font-size: 25px;
   font-family: 'Big Shoulders Text', cursive;
@@ -34,7 +34,24 @@ body {
   padding-left: 1%;
   padding-right: 1%;
   text-decoration: none;
+}
 
+.alignRight {
+  float: right;
+  margin-top: 0;
+}
+
+.question {
+  background-color: rgb(231, 175, 20);
+  text-align: center;
+  color:black; 
+  opacity: 0.8;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3%;
+  border-radius: 20px/50px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
 }
 
 .title {
@@ -54,12 +71,21 @@ body {
 }
 
 .img-code {
-  border-radius: 20%;
+  border-radius: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 70%; */
+  width: 90%;
+  padding-bottom: 1%;
+}
 
+.img-mario {
+  border-radius: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 1%;
 }
 
 .button {
