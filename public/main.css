@@ -1,17 +1,55 @@
+body {
+  background-image: url("/images/background-img.jpg");
+}
+
+.nav {
+  color:black; 
+  font-size: 25px;
+  font-family: 'Big Shoulders Text', cursive;
+  background-color: white;
+  opacity: 0.6;
+  /* width: 100%; */
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius: 20px/50px;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+
+}
+
 .title {
   text-align: center;
-  color:rgb(60, 82, 79); 
+  color:black; 
   font-size: 45px;
   letter-spacing: 1em;
   font-family: 'Big Shoulders Text', cursive;
+  background-color: white;
+  opacity: 0.6;
+  width: 60%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 10%;
+  border-radius: 20px/50px;
+  padding-left: 33px;
+}
+
+.img-code {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 70%; */
+
 }
 
 .button {
-  font-size: 1em;
+  font-size: 22.5px;
   padding: 10px;
   color: white;
-  background-color:rgb(11, 196, 171); 
-  border: 2px solid rgb(5, 87, 76);
+  background-color:#3AC376; 
+  border: 2px solid #2A797D;
   border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
@@ -21,12 +59,13 @@
   margin: auto;
   margin-top: 10px;
   font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
 .button:hover {
-  background: rgb(5, 87, 76);
+  background: #2A797D;
   color: black;
-  border: 2px solid rgb(11, 196, 171);
+  border: 2px solid #3AC376;
 
 }
 
@@ -48,13 +87,16 @@
 }
 
 .popup {
-  margin: 70px auto;
+  margin: 20% auto;
   padding: 20px;
-  background: #fff;
+  color: balck;
+  background-color: rgb(144, 179, 159);
   border-radius: 5px;
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
 .popup h2 {
@@ -62,19 +104,22 @@
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: rgb(11, 196, 171);
+  color: #2A797D;
 }
+
 .popup .close:hover {
-  color: #06D85F;
+  color: black;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
