@@ -2,13 +2,12 @@
   {{>restart}}
 </div> --}}
 <div class="questions">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <img class="img-code" src="{{image}}" alt="{{name}}">
   <a class="button" href="#popupWin">{{answerOne}}</a>
   <a class="button" href="#popupLose">{{answerTwo}}</a>
   <a class="button" href="#popupLose">{{answerThree}}</a>
   <a class="button" href="#popupLose">{{answerFour}}</a>
 </div>
-
 {{!-- winner --}}
 <div id="popupWin" class="overlay">
   <div class="popup">
@@ -18,7 +17,7 @@
       You are a winner!
     </div>
     <div>
-      <button>Next Question</button>
+      <a class="button" href="#">Next Question</a>
     </div>
   </div>
 </div>
@@ -31,7 +30,7 @@
       Oh, not quite the right one. Don't worry, there are plenty more oportunities to learn during bootcamp.
     </div>
     <div>
-      <button>Next Question</button>
+      <a class="button" href="/quiz/questions/2">Next Question</a>
     </div>
   </div>
 </div>
