@@ -8,6 +8,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   max-width: 60%;
   padding: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   letter-spacing: .15em;
   text-align: center;
   border-radius: 20px/50px;
@@ -64,8 +66,8 @@ body {
   opacity: 0.6;
   width: 60%;
   margin: auto;
-  margin-top: 4%;
-  margin-bottom: 10%;
+  margin-top: 2%;
+  margin-bottom: 6%;
   border-radius: 20px/50px;
   padding-left: 33px;
 }
@@ -75,7 +77,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  /* width: 40%; */
+  max-height: 10%;
   padding-bottom: 1%;
 }
 
@@ -182,6 +185,12 @@ body {
   padding-bottom: 5%;
 }
 
+input {
+  background-color: #3AC376;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  border: none;
+}
 
 
 
