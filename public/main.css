@@ -2,6 +2,10 @@ body {
   background-image: url("/images/background-img.jpg");
 }
 
+.form{
+  background-color: white;
+}
+
 #welcome{
   background-color: rgb(231, 175, 20);
   margin: auto;

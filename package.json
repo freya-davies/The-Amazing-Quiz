@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "nodemon --inspect index --ignore data.json",
-    "start": "node server.js"
+    "debug": "nodemon --inspect index --ignore data.json scores.json",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
