@@ -17,7 +17,9 @@
       You are a winner!
     </div>
     <div>
-      <a class="button" href="/quiz/questions/{{nextId}}">Next Question</a>
+      <form action='/quiz/questions/{{id}}' method='post'>
+          <button class="button">Next Question</button>
+      </form>
     </div>
   </div>
 </div>
