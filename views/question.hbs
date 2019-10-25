@@ -18,7 +18,11 @@
     </div>
     <div>
       <form action='/quiz/questions/{{id}}' method='post'>
-          <button class="button">Next Question</button>
+          {{#if nextId}}
+            <button class="button">Next Question</button>
+          {{else}}
+            <button class="button">Go to scoreboard</button>
+          {{/if}}
       </form>
     </div>
   </div>
@@ -32,7 +36,11 @@
       Oh, not quite the right one. Don't worry, there are plenty more oportunities to learn during bootcamp.
     </div>
     <div>
-      <a class="button" href="/quiz/questions/{{nextId}}">Next Question</a>
+      {{#if nextId}}
+        <a class="button" href="/quiz/questions/{{nextId}}">Next Question</a>
+      {{else}}
+        <a class="button" href="/quiz/scores">Go to scoreboard</a>
+      {{/if}}
     </div>
   </div>
 </div>

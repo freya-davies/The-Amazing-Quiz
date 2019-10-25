@@ -28,10 +28,12 @@ router.get('/questions/:id', (req, res) => {
     const template = 'question'
     let nextId = id + 1
     
-    if (id-1 > data.questions.length) {
-        res.redirect('/scores')
+    if (id > data.questions.length) {
+        res.redirect('/quiz/scores')
     }
-    res.render(template, viewData)
+    else{
+        res.render(template, viewData)
+    }
     //want to add next id in the if function only if its not the last id
 })
 
