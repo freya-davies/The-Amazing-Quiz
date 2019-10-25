@@ -16,11 +16,9 @@ router.get('/', (req, res) => {
 
 router.get('/scores', (req, res) => {
     let template = 'scoreboard'
-    let viewData = data.questions
+    let viewData = scoreLog
     res.render(template, viewData)
 })
-
-
 
 router.get('/questions/:id', (req, res) => {
     let id = req.params.id
@@ -34,7 +32,6 @@ router.get('/questions/:id', (req, res) => {
     else{
         res.render(template, viewData)
     }
-    //want to add next id in the if function only if its not the last id
 })
 
 router.post('/questions/:id', (request, response) => {

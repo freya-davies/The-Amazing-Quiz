@@ -14,7 +14,12 @@
   <div class="popup">
     <h2>Hooray!</h2>
     <div class="content">
+      <audio autoplay>
+        <source src="sounds/win.wav" type="audio/wav">
+      </audio>
+      <p>
       You are a winner!
+      </p>
     </div>
     <div>
       <form action='/quiz/questions/{{id}}' method='post'>
@@ -33,7 +38,12 @@
     <h2>Next time for sure!</h2>
     {{!-- <a class="close" href="#">&times;</a> --}}
     <div class="content">
-      Oh, not quite the right one. Don't worry, there are plenty more oportunities to learn during bootcamp.
+      <audio autoplay>
+        <source src="sounds/win.wav" type="audio/wav">
+      </audio>
+      <p>
+          Oh, not quite the right one. Don't worry, there are plenty more oportunities to learn during bootcamp.
+      </p>
     </div>
     <div>
       {{#if nextId}}
