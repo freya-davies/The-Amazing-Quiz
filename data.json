@@ -2,7 +2,7 @@
   "questions" : [
     {
       "name" : "find",
-      "id": 0,
+      "id": 1,
       "nextId": 2,
       "answerOne" : {
         "text" : "Locates a function within all of your code and returns",
@@ -25,7 +25,7 @@
     },
     {
       "name" : "map",
-      "id": 1, 
+      "id": 2, 
       "nextId": 3,
       "answerOne": {
         "text" : "Returns a new array of the results of calling the given function on each element",
@@ -47,7 +47,7 @@
     },
     {
       "name" : "splice",
-      "id": 2,
+      "id": 3,
       "nextId": 4,
       "answerOne": {
         "text" : "Changes contents of a string by splitting it at the given marker",
@@ -69,7 +69,7 @@
     },
     {
       "name" : "trim",
-      "id": 3,
+      "id": 4,
       "nextId": 5,
       "answerOne": {
         "text" : "Trim is a string method that gives you a free haircut",
