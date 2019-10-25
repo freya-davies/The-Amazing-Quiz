@@ -1,7 +1,7 @@
 {
   "questions" : [
     {
-      "name" : "find",
+      "question": "What does .find() do?",
       "id": 1,
       "nextId": 2,
       "answerOne" : {
@@ -24,7 +24,7 @@
                   
     },
     {
-      "name" : "map",
+      "question": "What does .map() do?",
       "id": 2, 
       "nextId": 3,
       "answerOne": {
@@ -46,7 +46,7 @@
       "image": "/images/map.jpg"
     },
     {
-      "name" : "splice",
+      "question": "What does .splice() do?",
       "id": 3,
       "nextId": 4,
       "answerOne": {
@@ -68,9 +68,8 @@
       "image": "/images/splice.jpg"
     },
     {
-      "name" : "trim",
+      "question": "What does .trim() do?",
       "id": 4,
-      "nextId": 5,
       "answerOne": {
         "text" : "Trim is a string method that gives you a free haircut",
         "x" : "Lose"
