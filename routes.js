@@ -15,6 +15,12 @@ router.get('/', (req, res) => {
   res.render(template, viewData)
 })
 
+router.get('/scores', (req, res) => {
+    let template = 'scoreboard'
+    let viewData = scoreLog
+    res.render(template, viewData)
+})
+
 router.post('/', (req, res) => {
     scoreLog.name = req.body.name
     scoreLog.score = 0
@@ -22,12 +28,6 @@ router.post('/', (req, res) => {
     if (err) throw err;
   })
   res.redirect('/quiz/questions/1')
-})
-
-router.get('/scores', (req, res) => {
-  let template = 'scoreboard'
-  let viewData = data.questions
-  res.render(template, viewData)
 })
 
 router.get('/questions/:id', (req, res) => {
@@ -44,6 +44,7 @@ router.get('/questions/:id', (req, res) => {
     res.render(template, viewData)
   }
   //want to add next id in the if function only if its not the last id
+
 })
 
 router.post('/questions/:id', (request, response) => {
