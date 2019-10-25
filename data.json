@@ -20,7 +20,7 @@
         "text" : "Returns the value of the first element in the object that satisfies the given function",
         "x" : "Lose"
       },
-      "image" : "/images/greyhound.jpg"
+      "image" : "/images/find.jpg"
                   
     },
     {
@@ -43,7 +43,7 @@
         "text" : "Returns a new array with each element incremented by the given number", 
         "x" : "Lose"
       },
-      "image": "/images/greyhound.jpg"
+      "image": "/images/map.jpg"
     },
     {
       "name" : "splice",
@@ -65,7 +65,7 @@
         "text" : "Returns selected elements in an array but sliced into as many pieces as specified",
         "x" : "Lose"
       },
-      "image": "/images/greyhound.jpg"
+      "image": "/images/splice.jpg"
     },
     {
       "name" : "trim",
@@ -87,7 +87,7 @@
         "text" : "Trim takes a string and an index and retuns the string from the start to the given index",
         "x" : "Lose"
       },
-      "image": "/images/greyhound.jpg"
+      "image": "/images/trim.jpg"
     }
   ]
 }
